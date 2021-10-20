@@ -1,0 +1,30 @@
+package HomeWork10;
+
+public class StringConcatenation {
+//Concatenation means to add 2 thing together - joining 2 or more String togethers
+
+    public static void main (String[] args) {
+        String x = "Hello";
+        String y = "Java";
+
+        int a = 100;
+        int b = 200;
+
+
+        System.out.println(x+y);//HelloJava
+        System.out.println("x+y");//x+y
+
+        System.out.println(a+b);//300
+        System.out.println(a+x);//100Hello
+
+        System.out.println(a+b+x+y);//HelloJava
+        System.out.println(x+y+a);//HelloJava100
+
+        System.out.println(x+y+a+b);//HelloJava100200
+        System.out.println(x+y+(a+b));//HelloJava300
+
+
+    }
+
+}
+
